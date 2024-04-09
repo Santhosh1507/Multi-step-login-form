@@ -11,6 +11,15 @@ const Login = () => {
                     <div className="w-full">
                         <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-800">
                             <div className="g-5 lg:flex lg:flex-wrap ms-12">
+                                 {/* <!-- Right column container with background and description--> */}
+                                <div
+                                    className="flex items-center ms-32 rounded-b-lg lg:w-3/12 lg:rounded-r-lg lg:rounded-bl-none"
+
+                                >
+                                    <div className="">
+                                        <img className="" src={image1} alt="" />
+                                    </div>
+                                </div>
                                 {/* <!-- Left column container--> */}
                                 <div className="px-5 md:px-0 lg:w-7/12">
                                     <div className="md:mx-10 md:p-12">
@@ -64,7 +73,7 @@ const Login = () => {
                                                         type="button"
                                                         className="inline-block rounded border-2 border-danger px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-danger transition duration-150 ease-in-out hover:border-danger-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:border-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:border-danger-700 active:text-danger-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
                                                     >
-                                                        Login
+                                                        Register
                                                     </button></Link>
                                                 </TERipple>
                                             </div>
@@ -73,14 +82,7 @@ const Login = () => {
                                 </div>
 
                                 {/* <!-- Right column container with background and description--> */}
-                                <div
-                                    className="flex items-center ms-32 rounded-b-lg lg:w-3/12 lg:rounded-r-lg lg:rounded-bl-none"
-
-                                >
-                                    <div className="">
-                                        <img className="" src={image1} alt="" />
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
