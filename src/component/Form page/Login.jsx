@@ -31,7 +31,7 @@ const Login = () => {
                                         </div>
 
                                         <form>
-                                            <p className="mb-4">Please register an account</p>
+                                            <p className="mb-4">Please Login an account</p>
                                             {/* <!--Username input--> */}
                                             <TEInput
                                                 type="text"

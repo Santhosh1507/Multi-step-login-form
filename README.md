@@ -1,8 +1,29 @@
-# React + Vite
+# Multi-Step-login-form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I'm craete simple login and register page
 
-Currently, two official plugins are available:
+## 🛠 Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Install my-project with npm
+
+1. To install
+```bash
+  git clone https://github.com/Santhosh1507/Multi-step-login-form.git
+```
+2. install package
+```bash
+  npm install 
+```
+3. To install
+```bash
+  npm run dev
+```
+## Project Screenshots:
+![alt text](<images/Screenshot 2024-04-09 160330.png>)
+
+![alt text](<images/Screenshot 2024-04-09 160337.png>)
+
+
+### 🔗 Demo
+
+url: https://multi-step-login-form-web.netlify.app/
