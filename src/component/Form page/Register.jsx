@@ -11,9 +11,9 @@ const Register = () => {
                 <div className="g-6 flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200">
                     <div className="w-full">
                         <div className="block rounded-lg bg-white shadow-lg dark:bg-neutral-800">
-                            <div className="g-5 lg:flex lg:flex-wrap ms-12">
+                            <div className="g-0 lg:flex lg:flex-wrap ms-12 ">
                                 {/* <!-- Left column container--> */}
-                                <div className="px-5 md:px-0 lg:w-7/12">
+                                <div className="px-5 md:px-0 lg:w-7/12 sm:ms-2">
                                     <div className="md:mx-10 md:p-12">
                                         {/* <!--Logo--> */}
                                         <div className="text-center">
@@ -64,7 +64,7 @@ const Register = () => {
                                             </div>
 
                                             {/* <!--Register button--> */}
-                                            <div className="flex items-center justify-between pb-6">
+                                            <div className="flex items-center justify-between pb-6 sm-flex">
                                                 <p className="mb-0 mr-2">Have an account?</p>
                                                 <TERipple rippleColor="light">
                                                   <Link to='/login'> <button
@@ -84,7 +84,7 @@ const Register = () => {
                                     className="flex items-center ms-32 rounded-b-lg lg:w-3/12 lg:rounded-r-lg lg:rounded-bl-none"
                                     
                                 >
-                                    <div className="">
+                                    <div className="hidden lg:block sm:none">
                                     <img className="" src={image1} alt="" />
                                     </div>
                                 </div>

@@ -16,7 +16,7 @@ const Login = () => {
                                     className="flex items-center ms-32 rounded-b-lg lg:w-3/12 lg:rounded-r-lg lg:rounded-bl-none"
 
                                 >
-                                    <div className="">
+                                    <div className="hidden lg:block sm:none">
                                         <img className="" src={image1} alt="" />
                                     </div>
                                 </div>
